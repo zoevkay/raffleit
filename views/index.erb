@@ -1,0 +1,20 @@
+<html>
+<head>
+</head>
+
+<link href="<%= url('/style.css') %>" rel="stylesheet" type="text/css" />
+
+<body>
+  <br><br><br><br>
+  <div class='center'>
+    <h1>Welcome to the raffle!</h1>
+    <p>Please upload a csv of the raffle tickets for each person. Make sure it is in rows, with the person's number of tickets in the first column and their name in the second column.</p>
+
+    <form action='/raffle_results' enctype="multipart/form-data" method='POST'>
+        <input name="file" type="file" />
+        <input type="submit" value="Upload" />
+    </form>
+    <br><br>
+  </div>
+
+</body>

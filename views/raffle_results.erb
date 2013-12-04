@@ -1,0 +1,32 @@
+<html>
+<head></head>
+
+<link href="<%= url('/style.css') %>" rel="stylesheet" type="text/css" />
+
+</body>
+
+<br><br>
+  <div class='center'>
+    <h1>And the winners are...</h1>
+    <ol>
+    <% @winners.each do |winner| %>
+      <li>
+        <%= winner %>
+      </li>
+    <% end %>
+    </ol>
+
+    <h3>The raffle tickets entered:</h3>
+    <ol>
+      <% @ticket_list.each do |ticket| %>
+        <li>
+          <%= ticket %>
+        </li>
+      <% end %>
+    </ol>
+      <a href='/'>Start another raffle</a>
+    <br><br>
+  </div>
+
+
+</body

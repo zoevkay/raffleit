@@ -1,0 +1,21 @@
+h1 {
+  color:black;
+}
+a {
+  text-decoration: none;
+  color: purple;
+}
+body { 
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background-image: url('http://img11.imageshack.us/img11/852/sddds.jpg');
+  background-color: #cccccc;
+}
+.center {
+  margin-left:auto;
+  margin-right:auto;
+  width:70%;
+  background-color:#b0e0e6;
+  opacity: 0.7;
+  padding-left: 40px;
+  padding-top: 5px;
+}
